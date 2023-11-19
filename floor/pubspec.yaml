@@ -2,14 +2,14 @@ name: floor
 description: >
   The typesafe, reactive, and lightweight SQLite abstraction for your Flutter applications.
   This library is the runtime dependency.
-version: 1.4.2
+version: 1.4.3
 homepage: https://pinchbv.github.io/floor/
 repository: https://github.com/pinchbv/floor
 issue_tracker: https://github.com/pinchbv/floor/issues
 publish_to: none
 
 environment:
-  sdk: '>=2.12.0 <3.0.0'
+  sdk: '>=2.12.0 <4.0.0'
 
 dependencies:
   collection: ^1.15.0
@@ -19,7 +19,11 @@ dependencies:
     sdk: flutter
   meta: ^1.7.0
   path: ^1.8.1
-  sqflite: ^2.0.0+4
+  sqflite_sqlcipher:
+    git:
+      url: https://github.com/vhiteshM/sqflite_sqlcipher
+      path: sqflite
+      ref: v2.1.2
   sqflite_common_ffi: ^2.0.0+3
   sqlparser: ^0.27.0
 

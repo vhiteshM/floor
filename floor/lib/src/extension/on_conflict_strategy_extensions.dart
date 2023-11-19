@@ -1,5 +1,5 @@
 import 'package:floor_annotation/floor_annotation.dart';
-import 'package:sqflite/sqlite_api.dart';
+import 'package:sqflite_sqlcipher/sqflite.dart';
 
 extension OnConflictStrategyExtensions on OnConflictStrategy {
   ConflictAlgorithm asSqfliteConflictAlgorithm() {

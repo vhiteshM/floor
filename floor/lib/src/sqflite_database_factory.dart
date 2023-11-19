@@ -1,7 +1,7 @@
 import 'dart:io';
 
 import 'package:path/path.dart';
-import 'package:sqflite/sqflite.dart';
+import 'package:sqflite_sqlcipher/sqflite.dart';
 import 'package:sqflite_common_ffi/sqflite_ffi.dart';
 
 // infers factory as nullable without explicit type definition
