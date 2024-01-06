@@ -180,9 +180,11 @@ packages:
   floor_annotation:
     dependency: "direct main"
     description:
-      path: "../floor_annotation"
-      relative: true
-    source: path
+      path: floor_annotation
+      ref: "v1.4.4"
+      resolved-ref: "81260f6ab20bd7a22416f4c384be64f5760f93f2"
+      url: "https://github.com/vhiteshM/floor.git"
+    source: git
     version: "1.4.4"
   frontend_server_client:
     dependency: transitive
