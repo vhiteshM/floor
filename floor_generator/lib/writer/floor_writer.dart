@@ -14,7 +14,7 @@ class FloorWriter extends Writer {
       ..name = 'databaseBuilder'
       ..lambda = true
       ..static = true
-      ..body = Code('$databaseBuilderName(name)')
+      ..body = Code('$databaseBuilderName(name, password: password)')
       ..returns = refer(databaseBuilderName)
       ..docs.addAll([
         r'/// Creates a database builder for a persistent database.',

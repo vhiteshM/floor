@@ -37,7 +37,8 @@ class DatabaseBuilderWriter extends Writer {
         ..name = 'name'))
         ..optionalParameters.addAll([Parameter((builder) => builder
           ..toThis = true
-          ..name = 'password')]));
+        ..name = 'password'
+        ..named = true)]));
 
     final addMigrationsMethod = Method((builder) => builder
       ..name = 'addMigrations'
